@@ -16,7 +16,7 @@ if (!defined('MODX_BASE_PATH')) {
     die('HACK???');
 }
 
-global $FormLister, $modx;
+global $modx;
 
 // Записываем данные в базу
 $status = writeToBase($data, $modx->documentIdentifier);
